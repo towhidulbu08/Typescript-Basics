@@ -18,10 +18,10 @@ var RequestType2;
 })(RequestType2 || (RequestType2 = {}));
 console.log(RequestType2["deleteData"]);
 //Mixed enum:Heterogenous
-var RequestType3;
-(function (RequestType3) {
-    RequestType3[RequestType3["readData"] = 1] = "readData";
-    RequestType3["deleteData"] = "Delete Data";
-    RequestType3[RequestType3["id"] = 101] = "id";
-})(RequestType3 || (RequestType3 = {}));
-console.log(RequestType3);
+var requestType3;
+(function (requestType3) {
+    requestType3[requestType3["readData"] = 1] = "readData";
+    requestType3["deleteData"] = "Delete Data";
+    requestType3[requestType3["id"] = 101] = "id";
+})(requestType3 || (requestType3 = {}));
+console.log(requestType3);

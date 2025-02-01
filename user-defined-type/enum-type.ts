@@ -22,10 +22,10 @@ console.log(RequestType2["deleteData"]);
 
 //Mixed enum:Heterogenous
 
-enum RequestType3 {
+enum requestType3 {
   readData = 1,
   deleteData = "Delete Data",
   id = 101,
 }
 
-console.log(RequestType3);
+console.log(requestType3);
