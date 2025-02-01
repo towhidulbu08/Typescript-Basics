@@ -16,7 +16,4 @@ let user2: {
 user2 = { userName: "Michael", userId: 2 };
 users.push(user2);
 
-for (const key in users) {
-  console.log(users[key]["userName"]);
-}
 console.log(users);
