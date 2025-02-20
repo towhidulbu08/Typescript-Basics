@@ -1,12 +1,12 @@
-var Person = /** @class */ (function () {
-    function Person(userName, age) {
+"use strict";
+class Person {
+    constructor(userName, age) {
         this.userName = userName;
         this.age = age;
     }
-    Person.prototype.display = function () {
-        console.log("userName:".concat(this.userName, ", age:").concat(this.age));
-    };
-    return Person;
-}());
-var tamim = new Person("Tamim", 27);
+    display() {
+        console.log(`userName:${this.userName}, age:${this.age}`);
+    }
+}
+const tamim = new Person("Tamim", 27);
 console.log(tamim.display());

@@ -1,4 +1,5 @@
-var useID;
+"use strict";
+let useID;
 useID = "101";
 useID = 101;
 useID = true;

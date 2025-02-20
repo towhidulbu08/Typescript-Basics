@@ -1,3 +1,4 @@
+"use strict";
 //enum=> store constants, no duplicate values are allowed
 //enum=> fixed set of values
 //enum types=> numeric enum, string enum, heterogenous enum(mixed)
